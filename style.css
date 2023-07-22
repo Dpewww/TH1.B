@@ -1,0 +1,27 @@
+.form-me .box-form {
+    display: flex;
+
+}
+.form-me .name_label  {
+    width: 200px;
+}
+.form-me .content_input {
+    width: 300px;
+    display: flex;
+}
+.form-me input, .form-me textarea {
+    width: 100%;
+}
+.form-me .box-form:not(:last-child) {
+    margin-bottom: 20px;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.form-me .content_input.flex {
+    row-gap: 20px;
+}
+.form-me .content_input.flex textarea, .form-me .content_input.flex input {
+    width: 100%;
+}
